@@ -1,0 +1,52 @@
+{
+  "name": "conveyor-mq-rest-api",
+  "version": "0.0.1",
+  "description": "A REST API for Conveyor MQ",
+  "scripts": {
+    "lint": "eslint ./src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conveyor-mq/conveyor-mq-rest-api.git"
+  },
+  "author": "Jason Russell",
+  "license": "MIT",
+  "keywords": [
+    "API",
+    "REST",
+    "REST API"
+  ],
+  "bugs": {
+    "url": "https://github.com/conveyor-mq/conveyor-mq-rest-api/issues"
+  },
+  "homepage": "https://github.com/conveyor-mq/conveyor-mq-rest-api#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/ioredis": "^4.16.4",
+    "@types/lodash": "^4.14.155",
+    "@types/set-interval-async": "^1.0.0",
+    "@types/uuid": "^8.0.0",
+    "debug": "^4.1.1",
+    "ioredis": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^3.1.0",
+    "@typescript-eslint/parser": "^3.1.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "jest": "^26.0.1",
+    "np": "^6.2.3",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
